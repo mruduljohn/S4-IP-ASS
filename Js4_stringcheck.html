@@ -10,25 +10,22 @@
 
     function checkLength() {
 
-      // Get the input value
 
       var inputString = document.getElementById("inputString").value;
 
-      // Check the length of the string
 
       if (inputString.length < 5 || inputString.length > 10) {
 
-        // Prompt the user to enter another string
+    
 
         var newString = prompt("Please enter a string with a length between 5 and 10:");
 
-        // Update the input value with the new string
+
 
         document.getElementById("inputString").value = newString;
 
       }
 
-      // Display the length of the string
 
       document.getElementById("result").innerHTML = "The length of the string is: " + inputString.length;
 
