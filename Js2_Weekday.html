@@ -10,11 +10,9 @@
 
     function findDay() {
 
-      // Get the input value
 
       var inputNumber = parseInt(document.getElementById("inputNumber").value);
 
-      // Check if the input is within the valid range
 
       if (inputNumber >= 1 && inputNumber <= 7) {
 
@@ -22,13 +20,11 @@
 
         var dayName = daysOfWeek[inputNumber - 1];
 
-        // Display the result
 
         document.getElementById("result").innerHTML = "The day of the week is: " + dayName;
 
       } else {
 
-        // Display an error message for invalid input
 
         document.getElementById("result").innerHTML = "Invalid input! Please enter a number between 1 and 7.";
 
