@@ -1,0 +1,50 @@
+/* Reset default margins and paddings */
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color and font-family */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Center the content */
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Style the heading */
+  h1 {
+    margin-bottom: 20px;
+    color: #1a237e; /* Dark blue color */
+  }
+  
+  /* Style the button */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff; /* Dark blue color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for the button */
+  button:hover {
+    background-color: #0056b3; /* Slightly darker blue on hover */
+  }
+  
+  /* Style the date display paragraph */
+  p#displayDate {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+  }
+  

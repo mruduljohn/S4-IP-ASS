@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Hover</title>
+</head>
+<body bgcolor="white">
+    
+
+    <h1>Mouse Hover</h1>
+    <p>Mouse Hover on the buttons to change the background colour</p>
+
+    <button onmouseover="changeColor('red')" onmouseout="changeColor('white')">Red</button>
+    <button onmouseover="changeColor('blue')" onmouseout="changeColor('white')">Blue</button>
+    
+    <script>
+        function changeColor(color){
+            document.body.style.background = color;
+        }
+    </script>
+</body>
+</html>
